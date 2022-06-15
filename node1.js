@@ -5,3 +5,5 @@ var server=http.createServer(function(req,res){
         res.end()
     }
 });
+server.listen(5000);
+console.log('NodeJs web server at 5000')
